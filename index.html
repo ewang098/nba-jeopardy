@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<!--
+  Eric Wang
+  Date: October 17, 2020
+  Section: CSE 154 AC
+  TA: Fadel M Stiui
+
+  This HTML sets up the initial view provided to the user.
+  The cards list the cost associated with each question. The textContent
+  of these cards change as the user progresses (via clicking).
+  The score is changed upon answering a question correctly (which user
+  indiciates through right answer button)
+-->
+<html lang="en">
+  <head>
+    <title>NBA Jeopardy</title>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="index.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1>NBA Jeopardy!</h1>
+    </header>
+    <main>
+      <section id="score-board">
+        <h2>Score: $<span id="score">0</span></h2>
+      </section>
+      <section id="categories">
+        <section class="category">
+          <section class="category-name">
+            <p>Draft Picks</p>
+          </section>
+          <section class="cost-card draftpicks">
+            <p><span class="cost-button">$200</span></p>
+          </section>
+          <section class="cost-card draftpicks">
+            <p><span class="cost-button">$400</span></p>
+          </section>
+          <section class="cost-card draftpicks">
+            <p><span class="cost-button">$600</span></p>
+          </section>
+          <section class="cost-card draftpicks">
+            <p><span class="cost-button">$800</span></p>
+          </section>
+          <section class="cost-card draftpicks">
+            <p><span class="cost-button">$1000</span></p>
+          </section>
+        </section>
+        <section class="category">
+          <section class="category-name">
+            <p>Hall of Fame</p>
+          </section>
+          <section class="cost-card hof">
+            <p><span class="cost-button">$200</span></p>
+          </section>
+          <section class="cost-card hof">
+            <p><span class="cost-button">$400</span></p>
+          </section>
+          <section class="cost-card hof">
+            <p><span class="cost-button">$600</span></p>
+          </section>
+          <section class="cost-card hof">
+            <p><span class="cost-button">$800</span></p>
+          </section>
+          <section class="cost-card hof">
+            <p><span class="cost-button">$1000</span></p>
+          </section>
+        </section>
+        <section class="category">
+          <section class="category-name">
+            <p>Playoffs</p>
+          </section>
+          <section class="cost-card playoffs">
+            <p><span class="cost-button">$200</span></p>
+          </section>
+          <section class="cost-card playoffs">
+            <p><span class="cost-button">$400</span></p>
+          </section>
+          <section class="cost-card playoffs">
+            <p><span class="cost-button">$600</span></p>
+          </section>
+          <section class="cost-card playoffs">
+            <p><span class="cost-button">$800</span></p>
+          </section>
+          <section class="cost-card playoffs">
+            <p><span class="cost-button">$1000</span></p>
+          </section>
+        </section>
+        <section class="category">
+          <section class="category-name">
+            <p>MVP</p>
+          </section>
+          <section class="cost-card mvp">
+            <p><span class="cost-button">$200</span></p>
+          </section>
+          <section class="cost-card mvp">
+            <p><span class="cost-button">$400</span></p>
+          </section>
+          <section class="cost-card mvp">
+            <p><span class="cost-button">$600</span></p>
+          </section>
+          <section class="cost-card mvp">
+            <p><span class="cost-button">$800</span></p>
+          </section>
+          <section class="cost-card mvp">
+            <p><span class="cost-button">$1000</span></p>
+          </section>
+        </section>
+        <section class="category">
+          <section class="category-name">
+            <p>Under Dogs</p>
+          </section>
+          <section class="cost-card underdogs">
+            <p><span class="cost-button">$200</span></p>
+          </section>
+          <section class="cost-card underdogs">
+            <p><span class="cost-button">$400</span></p>
+          </section>
+          <section class="cost-card underdogs">
+            <p><span class="cost-button">$600</span></p>
+          </section>
+          <section class="cost-card underdogs">
+            <p><span class="cost-button">$800</span></p>
+          </section>
+          <section class="cost-card underdogs">
+            <p><span class="cost-button">$1000</span></p>
+          </section>
+        </section>
+      </section>
+    </main>
+  </body>
+</html>

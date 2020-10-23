@@ -1,0 +1,134 @@
+/*
+  Eric Wang
+  Date: Oct. 19, 2020
+  Section: CSE 154 AC
+  TA: Fadel M Shtiui
+
+  This cse applies styling to NBA jeopardy.
+  Some stylings are inactive on load.
+  Inactive stylings used through setting attributing
+  or adding class.
+*/
+body {
+  background-color: #434343;
+  font-family: 'Roboto', sans-serif;
+}
+/* Background-image via webgradients.com */
+
+header, #score-board, #categories {
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+header, #categories, .right-button, .wrong-button {
+  border-radius: 25px;
+}
+
+header, #score-board {
+  color: white;
+}
+
+#score-board {
+  font-size: 2vw;
+}
+
+header > h1 {
+  margin: 1px;
+}
+
+#score-board > h2 {
+  margin: 2px;
+}
+
+header {
+  width: 35vw;
+  font-size: 2.1vw;
+  background-color: #1D428A;
+  text-shadow: 3px 3px 5px #C8102E;
+}
+
+.category > .cost-card,
+.category > .question,
+.category > .answer,
+.answered,
+#categories,
+.category {
+  display: flex;
+}
+
+#categories, .category {
+  justify-content: space-evenly;
+}
+
+#categories {
+  width: 90%;
+  flex-direction: row;
+}
+
+.category {
+  width: 20vw;
+  flex-direction: column;
+  background-color: black;
+  color: #FFCC00;
+  padding-left: 1px;
+  padding-right: 1px;
+}
+
+.category > .cost-card, .question, .right-button, .wrong-button {
+  cursor: pointer;
+}
+
+.category-name {
+  text-decoration: underline;
+  font-weight: bold;
+  font-size: 1.9vw;
+  margin-top: 2px;
+}
+
+.category-name, .category > .cost-card, .category > .question, .category > .answer, .answered {
+  margin-bottom: 1px;
+}
+
+.category > .cost-card, .category > .question, .category > .answer, .answered {
+  width: 100%;
+  height: 125px;
+  margin-top: 1px;
+  justify-content: center;
+  align-items: center;
+}
+
+.category-name, .cost-card, .question, .answer {
+  background-color: #060CE9;
+}
+
+.cost-button {
+  font-size: 5vw;
+}
+
+.answer {
+  font-size: 1.75vw;
+}
+
+.question {
+  font-size: 1.35vw;
+}
+
+.answered {
+  visibility: hidden;
+}
+
+.right-button, .wrong-button {
+  height: 1.1em;
+  width: 1.1em;
+  margin-right: 2.5px;
+  margin-left: 2.5px;
+}
+
+.right-button {
+  background-color: lime;
+}
+
+.wrong-button {
+  background-color: red;
+}
