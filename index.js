@@ -1,8 +1,6 @@
 /**
  * Eric Wang
- *Date: Oct. 19, 2020
- *Section: CSE 154 AC
- *TA: Fadel M Shtiui
+ *This code was created as part of assignment for CSE 154: Webprogramming
  *This javascript file allows for the user to interact with the jeopardy cards.
  *Use of (this) allows for each card to have its own trajectory.
  *Event listeners used to progress cost-card -> question -> answer -> answered (complete)
